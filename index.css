@@ -1,0 +1,97 @@
+body{
+    background-color: #557A95;
+    text-align: center;
+}
+
+#intro{
+    font-family: 'Oswald', sans-serif;
+    font-size: 56px;
+    margin-top: 30px;
+    color: #FCDE46 ;
+    margin-bottom: 0px;
+    font-weight: 500;
+}
+
+#main-box{
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    background-color: #D6D6D6;
+    border-radius: 35px;
+    padding-bottom: 5px;
+}
+
+
+
+#question{
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    color: #5D5C61 ;
+    font-weight: 300;
+
+}
+
+input{
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#weights{
+    -webkit-appearance: none;
+    margin-top: 30px;
+    height: 45px;
+    font-size: 36px;
+    border-radius: 25px;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+}
+
+#submit{
+    -webkit-appearance: none;
+    margin-top: 30px;
+    height: 40px;
+    font-size: 25px;
+    border-radius: 40px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+#answer{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 45px;
+    background-color: #7395AE ;
+    border-radius: 35px;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    margin-top: 0;
+}
+
+#calc{
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#info{
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 500;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 40px;
+    background-color: #557A95;;
+    border-radius: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
