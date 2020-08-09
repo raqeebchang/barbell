@@ -2,6 +2,8 @@
 
 let parent = document.getElementById("result");
 
+
+
 function getInput(){
     let inputVal = document.getElementById("weights").value;
     if(inputVal<50){
