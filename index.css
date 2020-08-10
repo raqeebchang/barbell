@@ -114,7 +114,7 @@ input{
 
 @media only screen and (max-width: 600px){
     #intro{
-        margin-top: 20px;
+        margin-top: 10px;
         font-size: 42px;
     }
     #main-box{
@@ -142,7 +142,7 @@ input{
 
 @media only screen and (max-width: 400px){
     #intro{
-        margin-top: 20px;
+        margin-top: 10px;
         font-size: 30px;
     }
     #main-box{
