@@ -54,7 +54,7 @@ function calculate(x){
     " 35:" + plate35 + " 25:" + plate25 + " 10:" + plate10 + " 5:"+ plate5 + " 2.5:" + plate2;
 
    let calculations = document.createElement("p");
-   let introduction = document.createTextNode("In order to lift "+x+ " pounds, you will need to put: ");
+   let introduction = document.createTextNode("In order to lift "+x+ " pounds, you need: ");
    calculations.setAttribute("id","calc");
    calculations.appendChild(introduction);
    let info = document.createElement("p");
@@ -123,6 +123,5 @@ function calculate(x){
     calculations.appendChild(info);
     calculations.appendChild(conclusion);
 
-    //TODO: keep going down thru list of plates
     return(calculations);
 }
